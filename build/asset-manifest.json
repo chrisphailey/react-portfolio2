@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.f336a1d6.css",
+    "main.js": "/react-portfolio/static/js/main.72d09caa.js",
+    "static/js/787.b642d3ba.chunk.js": "/react-portfolio/static/js/787.b642d3ba.chunk.js",
+    "static/media/4.png": "/react-portfolio/static/media/4.2f1855b03df3559f82ae.png",
+    "static/media/1.png": "/react-portfolio/static/media/1.1f0f15dd6b9cce052a0d.png",
+    "static/media/about-photo.jpg": "/react-portfolio/static/media/about-photo.05866b3f8aae9302d550.jpg",
+    "static/media/Chris Hailey - Web Developer Resume 4_11_2022_Page_1.jpg": "/react-portfolio/static/media/Chris Hailey - Web Developer Resume 4_11_2022_Page_1.b025207e26d76c7b17cb.jpg",
+    "static/media/2.png": "/react-portfolio/static/media/2.bf0180550051adf0817f.png",
+    "static/media/0.png": "/react-portfolio/static/media/0.034bd08972b95a1dfd11.png",
+    "static/media/Chris-Hailey.png": "/react-portfolio/static/media/Chris-Hailey.55f69a2173f32e852dba.png",
+    "static/media/3.png": "/react-portfolio/static/media/3.918127fe1ab967f46827.png",
+    "static/media/Chris Hailey - Web Developer Resume 4_11_2022_Page_2.jpg": "/react-portfolio/static/media/Chris Hailey - Web Developer Resume 4_11_2022_Page_2.0489c7fdae7dd30a4c3b.jpg",
+    "index.html": "/react-portfolio/index.html",
+    "main.f336a1d6.css.map": "/react-portfolio/static/css/main.f336a1d6.css.map",
+    "main.72d09caa.js.map": "/react-portfolio/static/js/main.72d09caa.js.map",
+    "787.b642d3ba.chunk.js.map": "/react-portfolio/static/js/787.b642d3ba.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f336a1d6.css",
+    "static/js/main.72d09caa.js"
+  ]
+}
