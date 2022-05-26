@@ -12,11 +12,11 @@ function Projects() {
 
   const [projects] = useState([
     {
-      name: "Day Planner",
-      url: "https://chrisphailey.github.io/planner-challenge2/",
-      description:
-        "A simple and sleek day planner color coded to display tasks in the past, present and future",
-      technologies: "HTML, CSS, JavaScript",
+      name: "N-Sense",
+      url: "https://n-sense.herokuapp.com/",
+      description: "An ecommerce site selling handmade therapeutic products",
+      technologies:
+        "React, Apollo, GraphQL, Express.js, Mongoose, Tailwind, Stripe, AWS, Heroku",
     },
     {
       name: "Tenantive.ly",
@@ -25,6 +25,13 @@ function Projects() {
         "A real estate management application providing rental listing and budget services to landlords",
       technologies:
         "HTML, CSS, JavaScript, Bootstrap, Handlebars.js, Node.js, mySQL2, AWS",
+    },
+    {
+      name: "Day Planner",
+      url: "https://chrisphailey.github.io/planner-challenge2/",
+      description:
+        "A simple and sleek day planner color coded to display tasks in the past, present and future",
+      technologies: "HTML, CSS, JavaScript",
     },
     {
       name: "Budget-Tracker",
