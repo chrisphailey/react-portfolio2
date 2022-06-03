@@ -46,13 +46,13 @@ function Projects() {
       description:
         "5-Day weather forecast by city.  The power of the future in the palm of your hands!",
     },
-    {
-      name: "Perkins Everitt About Page",
-      url: "https://chrisphailey.github.io/paradigm-about/",
-      description:
-        "An about page mock-up created for a commercial lighting company.  Built off a static design with attention to detail and enhanced interactivity",
-      technologies: "HTML, CSS, Alpine.js, TailwindCSS",
-    },
+    // {
+    //   name: "Perkins Everitt About Page",
+    //   url: "https://chrisphailey.github.io/paradigm-about/",
+    //   description:
+    //     "An about page mock-up created for a commercial lighting company.  Built off a static design with attention to detail and enhanced interactivity",
+    //   technologies: "HTML, CSS, Alpine.js, TailwindCSS",
+    // },
   ]);
 
   return (

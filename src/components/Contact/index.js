@@ -45,7 +45,9 @@ const Contact = () => {
         <div className="flex row  w-full justify-center">
           <div className="col-md-9 mb-md-0 mb-5 flex justify-center w-full">
             <form id="contact-form" name="contact-form">
-              <div className="row">
+              <h2 className="email">chrisphailey@gmail.com</h2>
+              <h2 className="number">901-573-1374</h2>
+              {/* <div className="row">
                 <div className="col-md-6">
                   <div className="md-form mb-0">
                     <input
@@ -115,7 +117,7 @@ const Contact = () => {
                   Send
                 </button>
               </div>
-              <div className="status"></div>
+              <div className="status"></div> */}
             </form>
           </div>
         </div>
