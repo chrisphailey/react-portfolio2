@@ -7,10 +7,10 @@ function Nav(props) {
   const { setNavSelection, navSelection } = props;
   return (
     <header className="flex-row px-1">
-      <div className="flex-row logo-container flex justify-center">
+      <div className="flex flex-row justify-center logo-container">
         <img className="logo" src={logo} />
       </div>
-      <div className="icons flex-row flex justify-center">
+      <div className="flex flex-row justify-center icons">
         <a href="https://www.linkedin.com/in/christopher-hailey-3040016a/">
           <BsLinkedin className="mr-4" size={28} />
         </a>
