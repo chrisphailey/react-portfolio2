@@ -11,16 +11,16 @@ function Resume() {
       "https://drive.google.com/file/d/1DNytjgusfaeqX8zLIQVqbEeeh7WME7kr/view";
   }
   return (
-    <div className="w-full relative flex justify-center">
+    <div className="relative flex justify-center w-full">
       <div className="block w-1/2">
-        <div className="w-full flex justify-center">
+        <div className="flex justify-center w-full">
           <h1 className="heading">Resume</h1>
         </div>
-        <div className="w-full flex justify-center">
+        <div className="flex justify-center w-full">
           <button
             type="button"
             onClick={handleClick}
-            className="border-white border-3 p-2 rounded-lg mb-2"
+            className="p-2 mb-2 border-white rounded-lg border-3"
           >
             Google Drive
           </button>
@@ -28,6 +28,7 @@ function Resume() {
         <div className="">
           <a
             href="https://drive.google.com/file/d/1DNytjgusfaeqX8zLIQVqbEeeh7WME7kr/view?usp=sharing"
+            target="_blank"
             download
           >
             <img src={resume}></img>
