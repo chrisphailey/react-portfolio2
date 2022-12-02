@@ -2,13 +2,12 @@ import React from "react";
 // import resume from "../../assets/project-img/resume.pdf";
 // import { Document } from "react-pdf/dist/entry.webpack";
 // import { Page } from "react-pdf";
-import resume from "../../assets/project-img/Chris Hailey - Web Developer Resume 4_11_2022_Page_1.jpg";
-import resume2 from "../../assets/project-img/Chris Hailey - Web Developer Resume 4_11_2022_Page_2.jpg";
+import resume from "../../assets/project-img/resume-october-2022.png";
 
 function Resume() {
   function handleClick() {
     window.location.href =
-      "https://drive.google.com/file/d/1DNytjgusfaeqX8zLIQVqbEeeh7WME7kr/view";
+      "https://drive.google.com/file/d/1XPB2EUW1FRU-ZKBSvWnTFQh8LxYymy5q/view?usp=sharing";
   }
   return (
     <div className="relative flex justify-center w-full">
@@ -20,6 +19,7 @@ function Resume() {
           <button
             type="button"
             onClick={handleClick}
+            target="_blank"
             className="p-2 mb-2 border-white rounded-lg border-3"
           >
             Google Drive
@@ -27,12 +27,11 @@ function Resume() {
         </div>
         <div className="">
           <a
-            href="https://drive.google.com/file/d/1DNytjgusfaeqX8zLIQVqbEeeh7WME7kr/view?usp=sharing"
+            href="https://drive.google.com/file/d/1XPB2EUW1FRU-ZKBSvWnTFQh8LxYymy5q/view?usp=sharing"
             target="_blank"
             download
           >
             <img src={resume}></img>
-            <img src={resume2}></img>
           </a>
         </div>
       </div>
